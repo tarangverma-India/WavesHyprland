@@ -330,7 +330,7 @@ if [[ "$wallpaper" =~ ^[Y|y]$ ]]; then
     msg act "Downloading some wallpapers..."
     
     # cloning the wallpapers in a temporary directory
-    git clone --depth=1 https://github.com/shell-ninja/Wallpapers.git ~/.cache/wallpaper-cache 2>&1 | tee -a "$log" &> /dev/null
+    git clone --depth=1 https://github.com/tarangverma-India/WavesWallpapers.git ~/.cache/wallpaper-cache 2>&1 | tee -a "$log" &> /dev/null
 
     # copying the wallpaper to the main directory
     if [[ -d "$HOME/.cache/wallpaper-cache" ]]; then
